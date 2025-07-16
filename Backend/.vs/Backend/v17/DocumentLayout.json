@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vedan\\source\\repos\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\interfaces\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\carts\\queries\\getactivecartqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\carts\\queries\\getactivecartquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\carts\\commands\\additemtocartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\carts\\commands\\additemtocartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\enums\\builtinroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\common\\baseauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\orders\\commands\\placeordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\common\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\orders\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Interfaces\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Interfaces\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Interfaces\\IAppDbContext.cs",
+              "RelativeToolTip": "..\\Application\\Interfaces\\IAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T05:26:26.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetActiveCartQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Queries\\GetActiveCartQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Carts\\Queries\\GetActiveCartQueryHandler.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Queries\\GetActiveCartQueryHandler.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Carts\\Queries\\GetActiveCartQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T05:26:18.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GetActiveCartQuery.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Queries\\GetActiveCartQuery.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Carts\\Queries\\GetActiveCartQuery.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Queries\\GetActiveCartQuery.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Carts\\Queries\\GetActiveCartQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T05:26:14.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddItemToCartCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\AddItemToCartCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Carts\\Commands\\AddItemToCartCommandHandler.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\AddItemToCartCommandHandler.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Carts\\Commands\\AddItemToCartCommandHandler.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T05:26:06.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddItemToCartCommand.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\AddItemToCartCommand.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Carts\\Commands\\AddItemToCartCommand.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\AddItemToCartCommand.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Carts\\Commands\\AddItemToCartCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T05:26:03.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BuiltInRoles.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Enums\\BuiltInRoles.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Enums\\BuiltInRoles.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Enums\\BuiltInRoles.cs",
+              "RelativeToolTip": "..\\Domain\\Enums\\BuiltInRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T05:25:23.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "..\\Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T05:25:09.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BaseAuditableEntity.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Common\\BaseAuditableEntity.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Common\\BaseAuditableEntity.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Common\\BaseAuditableEntity.cs",
+              "RelativeToolTip": "..\\Domain\\Common\\BaseAuditableEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T05:25:08.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlaceOrderCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Commands\\PlaceOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Orders\\Commands\\PlaceOrderCommandHandler.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Commands\\PlaceOrderCommandHandler.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Orders\\Commands\\PlaceOrderCommandHandler.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T05:13:54.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Common\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Common\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Common\\MappingProfile.cs",
+              "RelativeToolTip": "..\\Application\\Common\\MappingProfile.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAjwB4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T05:06:31.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Dtos\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Orders\\Dtos\\OrderItemDto.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Dtos\\OrderItemDto.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Orders\\Dtos\\OrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T05:06:16.457Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

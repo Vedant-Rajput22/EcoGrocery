@@ -1,0 +1,1044 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vedan\\source\\repos\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D45110B-02B3-4AEA-860C-2C7A22C0A452}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\vedan\\source\\repos\\infrastructure\\data\\ecodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D45110B-02B3-4AEA-860C-2C7A22C0A452}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\vedan\\source\\repos\\infrastructure\\data\\seed\\ecodbcontextseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D45110B-02B3-4AEA-860C-2C7A22C0A452}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\vedan\\source\\repos\\infrastructure\\data\\configurations\\orderconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D45110B-02B3-4AEA-860C-2C7A22C0A452}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\vedan\\source\\repos\\infrastructure\\data\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D45110B-02B3-4AEA-860C-2C7A22C0A452}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\vedan\\source\\repos\\infrastructure\\data\\configurations\\orderitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D45110B-02B3-4AEA-860C-2C7A22C0A452}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\vedan\\source\\repos\\infrastructure\\data\\configurations\\moneyconfigurationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D45110B-02B3-4AEA-860C-2C7A22C0A452}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\vedan\\source\\repos\\infrastructure\\data\\configurations\\cartitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D45110B-02B3-4AEA-860C-2C7A22C0A452}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\vedan\\source\\repos\\infrastructure\\data\\configurations\\cartconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D45110B-02B3-4AEA-860C-2C7A22C0A452}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\vedan\\source\\repos\\infrastructure\\behaviors\\validationbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\valueobjects\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\common\\baseauditableentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\enums\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\enums\\ecolabel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\enums\\builtinroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\products\\products\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\products\\products\\queries\\getproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\products\\products\\queries\\getproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\interfaces\\iappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\products\\products\\commands\\createproductcommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\products\\products\\commands\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\products\\products\\commands\\createproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\orders\\queries\\getordersqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\orders\\queries\\getordersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\orders\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\orders\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\orders\\dtos\\checkoutcommanddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\orders\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\orders\\commands\\placeordercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\orders\\commands\\placeordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\orders\\commands\\placeordercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\carts\\queries\\getactivecartqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\carts\\queries\\getactivecartquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\carts\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\carts\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\carts\\commands\\updatecartitemquantitycommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\carts\\commands\\updatecartitemquantitycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\carts\\commands\\removeitemfromcartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\carts\\commands\\removeitemfromcartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\carts\\commands\\additemtocartcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\carts\\commands\\additemtocartcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\auth\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\features\\auth\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C00DD43A-FA7E-4DAE-B8AE-B2929A474D2A}|..\\Application\\Application.csproj|c:\\users\\vedan\\source\\repos\\application\\common\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50AD04-5D04-411E-BFCA-F905C0075A03}|..\\Api\\Api.csproj|c:\\users\\vedan\\source\\repos\\api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50AD04-5D04-411E-BFCA-F905C0075A03}|..\\Api\\Api.csproj|c:\\users\\vedan\\source\\repos\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50AD04-5D04-411E-BFCA-F905C0075A03}|..\\Api\\Api.csproj|c:\\users\\vedan\\source\\repos\\api\\extensions\\claimsprincipalextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50AD04-5D04-411E-BFCA-F905C0075A03}|..\\Api\\Api.csproj|c:\\users\\vedan\\source\\repos\\api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50AD04-5D04-411E-BFCA-F905C0075A03}|..\\Api\\Api.csproj|c:\\users\\vedan\\source\\repos\\api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50AD04-5D04-411E-BFCA-F905C0075A03}|..\\Api\\Api.csproj|c:\\users\\vedan\\source\\repos\\api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50AD04-5D04-411E-BFCA-F905C0075A03}|..\\Api\\Api.csproj|c:\\users\\vedan\\source\\repos\\api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50AD04-5D04-411E-BFCA-F905C0075A03}|..\\Api\\Api.csproj|c:\\users\\vedan\\source\\repos\\api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vedan\\source\\repos\\Infrastructure\\Migrations\\20250715192812_OrderModule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D45110B-02B3-4AEA-860C-2C7A22C0A452}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\vedan\\source\\repos\\infrastructure\\migrations\\20250715162229_productissues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D45110B-02B3-4AEA-860C-2C7A22C0A452}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\vedan\\source\\repos\\infrastructure\\migrations\\20250715120359_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50AD04-5D04-411E-BFCA-F905C0075A03}|..\\Api\\Api.csproj|c:\\users\\vedan\\source\\repos\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D62FE6BC-2393-43DE-A4AF-F42EBB4318A0}|..\\Domain\\Domain.csproj|c:\\users\\vedan\\source\\repos\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\Configurations\\OrderItemConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\Configurations\\OrderItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\Configurations\\OrderItemConfiguration.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\Configurations\\OrderItemConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:52:42.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\Configurations\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:33:24.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\Configurations\\OrderConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\Configurations\\OrderConfiguration.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\Configurations\\OrderConfiguration.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\Configurations\\OrderConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:52:33.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EcoDbContextSeed.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\Seed\\EcoDbContextSeed.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\Seed\\EcoDbContextSeed.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\Seed\\EcoDbContextSeed.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\Seed\\EcoDbContextSeed.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:57:38.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EcoDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\EcoDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\EcoDbContext.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\EcoDbContext.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\EcoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:17:56.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MoneyConfigurationExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\Configurations\\MoneyConfigurationExtensions.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\Configurations\\MoneyConfigurationExtensions.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\Configurations\\MoneyConfigurationExtensions.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\Configurations\\MoneyConfigurationExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:56:36.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartItemConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\Configurations\\CartItemConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\Configurations\\CartItemConfiguration.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\Configurations\\CartItemConfiguration.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\Configurations\\CartItemConfiguration.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:33:41.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\Configurations\\CartConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Data\\Configurations\\CartConfiguration.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Data\\Configurations\\CartConfiguration.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Data\\Configurations\\CartConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:33:32.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ValidationBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Behaviors\\ValidationBehavior.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Behaviors\\ValidationBehavior.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Behaviors\\ValidationBehavior.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Behaviors\\ValidationBehavior.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T16:10:45.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Address.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\ValueObjects\\Address.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\ValueObjects\\Address.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\ValueObjects\\Address.cs",
+              "RelativeToolTip": "..\\Domain\\ValueObjects\\Address.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:47:20.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Money.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\ValueObjects\\Money.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\ValueObjects\\Money.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\ValueObjects\\Money.cs",
+              "RelativeToolTip": "..\\Domain\\ValueObjects\\Money.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:14:52.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Cart.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Entities\\Cart.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:16:50.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Entities\\AppUser.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\AppUser.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Entities\\AppUser.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:37:39.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "..\\Domain\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:13:55.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseAuditableEntity.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Common\\BaseAuditableEntity.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Common\\BaseAuditableEntity.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Common\\BaseAuditableEntity.cs",
+              "RelativeToolTip": "..\\Domain\\Common\\BaseAuditableEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:14:02.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Enums\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Enums\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Enums\\OrderStatus.cs",
+              "RelativeToolTip": "..\\Domain\\Enums\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:45:53.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "EcoLabel.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Enums\\EcoLabel.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Enums\\EcoLabel.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Enums\\EcoLabel.cs",
+              "RelativeToolTip": "..\\Domain\\Enums\\EcoLabel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:45:10.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BuiltInRoles.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Enums\\BuiltInRoles.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Enums\\BuiltInRoles.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Enums\\BuiltInRoles.cs",
+              "RelativeToolTip": "..\\Domain\\Enums\\BuiltInRoles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T16:47:30.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAA5wDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:16:29.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:40:10.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:39:51.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Entities\\CartItem.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\CartItem.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Entities\\CartItem.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:17:10.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Products\\Products\\Dtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Products\\Products\\Dtos\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Products\\Products\\Dtos\\ProductDto.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Products\\Products\\Dtos\\ProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:21:50.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GetProductsQuery.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Products\\Products\\Queries\\GetProductsQuery.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Products\\Products\\Queries\\GetProductsQuery.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Products\\Products\\Queries\\GetProductsQuery.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Products\\Products\\Queries\\GetProductsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:23:01.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GetProductsQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Products\\Products\\Queries\\GetProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Products\\Products\\Queries\\GetProductsQueryHandler.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Products\\Products\\Queries\\GetProductsQueryHandler.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Products\\Products\\Queries\\GetProductsQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:23:29.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IAppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Interfaces\\IAppDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Interfaces\\IAppDbContext.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Interfaces\\IAppDbContext.cs",
+              "RelativeToolTip": "..\\Application\\Interfaces\\IAppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:29:52.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateProductCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Products\\Products\\Commands\\CreateProductCommandValidator.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Products\\Products\\Commands\\CreateProductCommandValidator.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Products\\Products\\Commands\\CreateProductCommandValidator.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Products\\Products\\Commands\\CreateProductCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:15:23.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CreateProductCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Products\\Products\\Commands\\CreateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Products\\Products\\Commands\\CreateProductCommandHandler.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Products\\Products\\Commands\\CreateProductCommandHandler.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Products\\Products\\Commands\\CreateProductCommandHandler.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAADwvxMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:15:05.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CreateProductCommand.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Products\\Products\\Commands\\CreateProductCommand.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Products\\Products\\Commands\\CreateProductCommand.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Products\\Products\\Commands\\CreateProductCommand.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Products\\Products\\Commands\\CreateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:14:44.198Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GetOrdersQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Queries\\GetOrdersQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Orders\\Queries\\GetOrdersQueryHandler.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Queries\\GetOrdersQueryHandler.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Orders\\Queries\\GetOrdersQueryHandler.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:21:59.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "GetOrdersQuery.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Queries\\GetOrdersQuery.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Orders\\Queries\\GetOrdersQuery.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Queries\\GetOrdersQuery.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Orders\\Queries\\GetOrdersQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:21:25.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Dtos\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Orders\\Dtos\\OrderItemDto.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Dtos\\OrderItemDto.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Orders\\Dtos\\OrderItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:13:59.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Dtos\\OrderDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Orders\\Dtos\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Dtos\\OrderDto.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Orders\\Dtos\\OrderDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwA4AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:14:21.998Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CheckoutCommandDto.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Dtos\\CheckoutCommandDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Orders\\Dtos\\CheckoutCommandDto.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Dtos\\CheckoutCommandDto.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Orders\\Dtos\\CheckoutCommandDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:57:32.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AddressDto.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Dtos\\AddressDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Orders\\Dtos\\AddressDto.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Dtos\\AddressDto.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Orders\\Dtos\\AddressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:56:39.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "PlaceOrderCommand.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Commands\\PlaceOrderCommand.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Orders\\Commands\\PlaceOrderCommand.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Commands\\PlaceOrderCommand.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Orders\\Commands\\PlaceOrderCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:18:32.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PlaceOrderCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Commands\\PlaceOrderCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Orders\\Commands\\PlaceOrderCommandHandler.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Commands\\PlaceOrderCommandHandler.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Orders\\Commands\\PlaceOrderCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:19:40.305Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PlaceOrderCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Commands\\PlaceOrderCommandValidator.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Orders\\Commands\\PlaceOrderCommandValidator.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Orders\\Commands\\PlaceOrderCommandValidator.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Orders\\Commands\\PlaceOrderCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:24:44.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "GetActiveCartQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Queries\\GetActiveCartQueryHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Carts\\Queries\\GetActiveCartQueryHandler.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Queries\\GetActiveCartQueryHandler.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Carts\\Queries\\GetActiveCartQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:13:56.786Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GetActiveCartQuery.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Queries\\GetActiveCartQuery.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Carts\\Queries\\GetActiveCartQuery.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Queries\\GetActiveCartQuery.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Carts\\Queries\\GetActiveCartQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:32:31.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CartItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Dtos\\CartItemDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Carts\\Dtos\\CartItemDto.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Dtos\\CartItemDto.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Carts\\Dtos\\CartItemDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:31:31.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "CartDto.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Dtos\\CartDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Carts\\Dtos\\CartDto.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Dtos\\CartDto.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Carts\\Dtos\\CartDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:31:25.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UpdateCartItemQuantityCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\UpdateCartItemQuantityCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Carts\\Commands\\UpdateCartItemQuantityCommandHandler.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\UpdateCartItemQuantityCommandHandler.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Carts\\Commands\\UpdateCartItemQuantityCommandHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:56:04.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UpdateCartItemQuantityCommand.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\UpdateCartItemQuantityCommand.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Carts\\Commands\\UpdateCartItemQuantityCommand.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\UpdateCartItemQuantityCommand.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Carts\\Commands\\UpdateCartItemQuantityCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:32:02.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "RemoveItemFromCartCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\RemoveItemFromCartCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Carts\\Commands\\RemoveItemFromCartCommandHandler.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\RemoveItemFromCartCommandHandler.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Carts\\Commands\\RemoveItemFromCartCommandHandler.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:55:08.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RemoveItemFromCartCommand.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\RemoveItemFromCartCommand.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Carts\\Commands\\RemoveItemFromCartCommand.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\RemoveItemFromCartCommand.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Carts\\Commands\\RemoveItemFromCartCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:32:12.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AddItemToCartCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\AddItemToCartCommandHandler.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Carts\\Commands\\AddItemToCartCommandHandler.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\AddItemToCartCommandHandler.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Carts\\Commands\\AddItemToCartCommandHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:50:57.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AddItemToCartCommand.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\AddItemToCartCommand.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Carts\\Commands\\AddItemToCartCommand.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Carts\\Commands\\AddItemToCartCommand.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Carts\\Commands\\AddItemToCartCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:31:50.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Auth\\Dtos\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Auth\\Dtos\\RegisterDto.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Auth\\Dtos\\RegisterDto.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Auth\\Dtos\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T16:34:34.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Auth\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Features\\Auth\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Features\\Auth\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "..\\Application\\Features\\Auth\\Dtos\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T16:34:58.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Application\\Common\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Common\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Application\\Common\\MappingProfile.cs",
+              "RelativeToolTip": "..\\Application\\Common\\MappingProfile.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:32:45.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Api\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "..\\Api\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Api\\WeatherForecast.cs",
+              "RelativeToolTip": "..\\Api\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T04:46:34.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ClaimsPrincipalExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Api\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "RelativeDocumentMoniker": "..\\Api\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Api\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "RelativeToolTip": "..\\Api\\Extensions\\ClaimsPrincipalExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:30:31.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "..\\Api\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Api\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "..\\Api\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:52:11.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Api\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "..\\Api\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Api\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "..\\Api\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:28:33.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Api\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "..\\Api\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Api\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "..\\Api\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T18:28:36.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Api\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "..\\Api\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Api\\Controllers\\CartController.cs",
+              "RelativeToolTip": "..\\Api\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:28:56.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Api\\Program.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Api\\Program.cs",
+              "RelativeToolTip": "..\\Api\\Program.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAADwv04AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:02:48.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Api\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "..\\Api\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Api\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "..\\Api\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAgwE8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:28:21.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "20250715192812_OrderModule.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Migrations\\20250715192812_OrderModule.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20250715192812_OrderModule.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Migrations\\20250715192812_OrderModule.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20250715192812_OrderModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T19:28:12.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "20250715162229_productissues.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Migrations\\20250715162229_productissues.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20250715162229_productissues.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Migrations\\20250715162229_productissues.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20250715162229_productissues.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T16:22:30.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "20250715120359_initial.cs",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Migrations\\20250715120359_initial.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Migrations\\20250715120359_initial.cs",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Infrastructure\\Migrations\\20250715120359_initial.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Migrations\\20250715120359_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:04:00.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Api\\appsettings.json",
+              "RelativeToolTip": "..\\Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-15T11:02:36.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\vedan\\source\\repos\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "..\\Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\vedan\\source\\repos\\Domain\\Domain.csproj",
+              "RelativeToolTip": "..\\Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-15T10:12:00.376Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
