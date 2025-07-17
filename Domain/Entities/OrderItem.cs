@@ -27,7 +27,6 @@ namespace Domain.Entities
 
         public int Quantity { get; private set; }
         public Money UnitPrice { get; private set; }
-
         public Money SubTotal => UnitPrice * Quantity;
     }
 }

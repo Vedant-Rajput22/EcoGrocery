@@ -31,6 +31,8 @@ namespace Application.Features.Orders.Queries
         {
             var src = _db.Orders
                          .Include(o => o.Items)
+                         .ThenInclude(i => i.Product)
+                         .Include(o => o.AppUser)
                          .AsQueryable();
 
             if (q.ForCurrentUserOnly && _ctx.HttpContext!.User.IsInRole(BuiltInRoles.Customer))

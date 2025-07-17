@@ -11,6 +11,8 @@ namespace Application.Features.Orders.Dtos
         public Guid Id { get; set; }
         public DateTime CreatedOn { get; set; }
         public decimal SubTotal { get; set; }
+        public string CustomerName { get; set; } = default!;      
+        public AddressDto ShippingAddress { get; set; } = default!;  
         public decimal ShippingFee { get; set; }
         public decimal Total { get; set; }
         public string Status { get; set; } = default!;

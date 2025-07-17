@@ -10,7 +10,7 @@ public class ProductConfiguration : IEntityTypeConfiguration<Product>
     {
         b.ToTable("Products");
         b.HasKey(p => p.Id);
-
+        b.Property<byte[]>("RowVersion").IsRowVersion();
         b.Property(p => p.Name).IsRequired().HasMaxLength(120);
         b.HasIndex(p => p.Name);
 

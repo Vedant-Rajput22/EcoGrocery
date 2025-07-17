@@ -68,8 +68,6 @@ builder.Services.AddAuthorization();
 
 builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssemblyContaining<MappingProfile>());
-builder.Services.AddMediatR(cfg =>
-    cfg.RegisterServicesFromAssemblyContaining<MappingProfile>());
 builder.Services.AddValidatorsFromAssemblyContaining<PlaceOrderCommand>();
 builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
 builder.Services.AddHttpContextAccessor();
@@ -132,6 +130,20 @@ app.Use(async (ctx, next) =>
 {
     Console.WriteLine($"Authorization header = [{ctx.Request.Headers["Authorization"]}]");
     await next();
+});
+app.Use(async (ctx, next) =>
+{
+    try { await next(); }
+    catch (InvalidOperationException ex)
+    {
+        ctx.Response.StatusCode = 400;
+        await ctx.Response.WriteAsJsonAsync(new { error = ex.Message });
+    }
+    catch (DbUpdateConcurrencyException)
+    {
+        ctx.Response.StatusCode = 409;
+        await ctx.Response.WriteAsJsonAsync(new { error = "Stock changed—refresh cart." });
+    }
 });
 
 app.UseAuthentication();

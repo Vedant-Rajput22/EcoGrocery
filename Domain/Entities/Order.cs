@@ -28,6 +28,7 @@ namespace Domain.Entities
         }
 
         public Guid AppUserId { get; private set; }
+        public AppUser AppUser { get; private set; } = default!;
         public OrderStatus Status { get; private set; }
 
         public Address ShippingAddress { get; private set; } = default!;
@@ -49,5 +50,18 @@ namespace Domain.Entities
             PaymentIntentId = paymentIntentId;
             Status = OrderStatus.Paid;
         }
+        public void ChangeStatus(OrderStatus next)
+        {
+            if (Status == next) return;
+
+            if (Status == OrderStatus.Cancelled)
+                throw new InvalidOperationException("Cancelled orders cannot change state.");
+
+            if (Status == OrderStatus.Shipped && next == OrderStatus.Pending)
+                throw new InvalidOperationException("Cannot revert a shipped order to pending.");
+
+            Status = next;
+        }
+
     }
 }

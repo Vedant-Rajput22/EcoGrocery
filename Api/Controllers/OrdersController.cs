@@ -1,6 +1,7 @@
 ﻿using Application.Features.Orders.Commands;
 using Application.Features.Orders.Dtos;
 using Application.Features.Orders.Queries;
+using Application.Interfaces;
 using Domain.Enums;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
@@ -36,4 +37,15 @@ public class OrdersController : ControllerBase
                      body.ShippingFee));
         return CreatedAtAction(nameof(GetMyOrders), new { id }, null);
     }
+    [HttpPatch("{id:guid}/status")]
+    [Authorize(Roles = BuiltInRoles.Admin)]
+    public async Task<IActionResult> ChangeStatus(
+    Guid id,
+    [FromBody] UpdateOrderStatusDto body,
+    CancellationToken ct)
+    {
+        await _sender.Send(new UpdateOrderStatusCommand(id, body.Status), ct);
+        return NoContent();
+    }
+
 }

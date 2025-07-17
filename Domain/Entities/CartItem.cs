@@ -14,7 +14,6 @@ public class CartItem : BaseEntity
         Quantity = qty;
         UnitPrice = price;
     }
-
     public Guid CartId { get; private set; }
     public Guid ProductId { get; private set; }
 
@@ -25,4 +24,6 @@ public class CartItem : BaseEntity
 
     public void Increase(int q) => Quantity += q;
     public void Decrease(int q) => Quantity = Math.Max(0, Quantity - q);
+
+
 }
