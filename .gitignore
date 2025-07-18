@@ -1,0 +1,16 @@
+﻿# ❌ build output
+bin/
+obj/
+
+# ❌ local VS caches
+.vs/
+*.user
+*.suo
+
+# ❌ configuration that may hold secrets
+**/appsettings*.json
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
