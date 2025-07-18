@@ -15,7 +15,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Text.Json.Serialization;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
-
+using Stripe;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<EcoDbContext>(opt =>
     opt.UseSqlServer(builder.Configuration.GetConnectionString("Default")));
@@ -23,10 +23,21 @@ builder.Services.AddDbContext<EcoDbContext>(opt =>
 builder.Services.AddScoped<IAppDbContext>(sp =>
     sp.GetRequiredService<EcoDbContext>());
 
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("Dev", p =>
+        p.AllowAnyOrigin()
+         .AllowAnyHeader()
+         .AllowAnyMethod());
+});
 builder.Services
     .AddIdentityCore<AppUser>()
     .AddRoles<IdentityRole<Guid>>()
     .AddEntityFrameworkStores<EcoDbContext>();
+var stripeCfg = builder.Configuration.GetSection("Stripe");
+Stripe.StripeConfiguration.ApiKey = stripeCfg["SecretKey"];
+
+builder.Services.AddHttpContextAccessor();
 
 var jwtSection = builder.Configuration.GetSection("Jwt");
 var keyBytes = Encoding.UTF8.GetBytes(jwtSection["Key"]!);
@@ -70,7 +81,6 @@ builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssemblyContaining<MappingProfile>());
 builder.Services.AddValidatorsFromAssemblyContaining<PlaceOrderCommand>();
 builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
-builder.Services.AddHttpContextAccessor();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateProductCommand>();
 builder.Services.AddTransient(
     typeof(IPipelineBehavior<,>),
@@ -125,7 +135,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseCors("Dev");
 app.Use(async (ctx, next) =>
 {
     Console.WriteLine($"Authorization header = [{ctx.Request.Headers["Authorization"]}]");

@@ -43,10 +43,14 @@ namespace Domain.Entities
         private void Recalculate() =>
             SubTotal = Items.Select(i => i.SubTotal)
                             .Aggregate(Money.Zero("INR"), (a, b) => a + b);
-
         public void MarkAsPaid(string paymentIntentId)
         {
-            if (Status != OrderStatus.Pending) throw new InvalidOperationException("Wrong state");
+            // Idempotent: ignore if we processed this PI already
+            if (Status == OrderStatus.Paid && PaymentIntentId == paymentIntentId) return;
+
+            if (Status != OrderStatus.Pending)
+                throw new InvalidOperationException("Order is not in a payable state.");
+
             PaymentIntentId = paymentIntentId;
             Status = OrderStatus.Paid;
         }
