@@ -68,7 +68,15 @@ CI/CD     : GitHub Actions (sample workflow in /.github)
    ```bash
    stripe listen --forward-to https://localhost:7192/api/Payments/webhook --skip-verify
    # In another terminal
-   stripe payment_intents confirm <pi_id> --payment-method pm_card_visa --return-url https://example.com/success
+ stripe payment_intents confirm <pi_id> --payment-method pm_card_visa --return-url https://example.com/success
+  ```
+
+6. **Run the frontend UI**
+
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
    ```
 
 ---
