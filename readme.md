@@ -36,12 +36,14 @@ CI/CD     : GitHub Actions (sample workflow in /.github)
 ## 🚀 Quick Start (Local)
 
 1. **Clone & restore packages**
+
    ```bash
    git clone https://github.com/Vedant-Rajput22/EcoGrocery.git
    cd EcoGrocery
    dotnet restore
    ```
 2. **Configure secrets** (never commit secrets!)
+
    ```bash
    cd Api                # project with Program.cs
    dotnet user-secrets init
@@ -51,15 +53,18 @@ CI/CD     : GitHub Actions (sample workflow in /.github)
    dotnet user-secrets set "Jwt:Key" "super‑secret‑jwt‑key"
    ```
 3. **Run migrations & seed**
+
    ```bash
    dotnet ef database update --project Infrastructure
    ```
 4. **Run the API**
+
    ```bash
    dotnet run --project Api
    # Swagger UI → https://localhost:7192/swagger
    ```
 5. **Test payments**
+
    ```bash
    stripe listen --forward-to https://localhost:7192/api/Payments/webhook --skip-verify
    # In another terminal
@@ -84,22 +89,26 @@ Use **User Secrets** for local dev and **env vars** (or secrets store) in produ
 
 ## 🌐 REST API Overview
 
-| Verb   | Endpoint                         | Description                 | Auth         |
-| ------ | -------------------------------- | --------------------------- | ------------ |
-| `POST` | `/api/Auth/register`             | Register new customer       | —            |
-| `POST` | `/api/Auth/login`                | Obtain JWT                  | —            |
-| `GET`  | `/api/Products`                  | List / filter products      | Optional     |
-| `POST` | `/api/Cart/items`                | Add item to active cart     | **Customer** |
-| `POST` | `/api/Orders`                    | Place order from cart       | **Customer** |
-| `POST` | `/api/Payments/intent/{orderId}` | Create Stripe PaymentIntent | **Customer** |
-| `POST` | `/api/Payments/webhook`          | Stripe webhook endpoint     | Stripe       |
-| `POST` | `/api/Products`                  | Create product              | **Admin**    |
+| Verb   | Endpoint                       | Description                  | Auth     |
+| ------ | ------------------------------ | ---------------------------- | -------- |
+| POST   | /api/Auth/register             | Register new customer        | —        |
+| POST   | /api/Auth/login                | Obtain JWT                   | —        |
+| GET    | /api/Products                  | List / filter products       | Optional |
+| GET    | /api/Cart                      | Get active cart              | Customer |
+| POST   | /api/Cart/items                | Add item to cart             | Customer |
+| PUT    | /api/Cart/items/{productId}    | Update item quantity         | Customer |
+| DELETE | /api/Cart/items/{productId}    | Remove item from cart        | Customer |
+| GET    | /api/Orders                    | List orders for current user | Customer |
+| GET    | /api/Orders/all                | List **all** orders          | Admin    |
+| POST   | /api/Orders/checkout/{cartId}  | Place order from cart        | Customer |
+| PATCH  | /api/Orders/{id}/status        | Update order status          | Admin    |
+| POST   | /api/Payments/intent/{orderId} | Create Stripe PaymentIntent  | Customer |
+| POST   | /api/Payments/webhook          | Stripe webhook endpoint      | Stripe   |
+| POST   | /api/Products                  | Create product               | Admin    |
 
-Full Swagger docs are available at `/swagger` when the API runs.
+Full Swagger docs are available at **/swagger** when the API runs.
 
----
-
-## 🧪 Testing Cheatsheet
+## 🧪 Testing Cheatsheet Testing Cheatsheet
 
 ```bash
 # Run unit tests (WIP)
@@ -130,8 +139,7 @@ This project is licensed under the **MIT License** – see `LICENSE` for details
 
 ## 🙏 Acknowledgements
 
-- [Stripe](https://stripe.com/) for the generous test environment.
-- Inspired by the community’s push towards sustainable ecommerce.
+* [Stripe](https://stripe.com/) for the generous test environment.
+* Inspired by the community’s push towards sustainable commerce.
 
-> Made with ♥ by **Vedant Rajput**
-
+> Made with ♥ by **Vedant Dipakkumar Rajput**
