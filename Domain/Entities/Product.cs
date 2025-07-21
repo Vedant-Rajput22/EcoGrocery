@@ -6,7 +6,8 @@ namespace Domain.Entities;
 public sealed class Product : BaseAuditableEntity
 {
     private Product() { }
-
+    private readonly List<ProductImage> _images = new();
+    public IReadOnlyCollection<ProductImage> Images => _images.AsReadOnly();
     public Product(string name,
                    Money price,
                    int stockQty,
@@ -27,7 +28,10 @@ public sealed class Product : BaseAuditableEntity
         CarbonGrams = carbonGrams;
         Label = label;
     }
+    public void AddImage(ProductImage img) => _images.Add(img);
 
+    public void RemoveImage(Guid imageId)
+        => _images.RemoveAll(i => i.Id == imageId);
     public string Sku { get; private set; } = default!;
     public string Name { get; private set; } = default!;
     public Money Price { get; private set; }
