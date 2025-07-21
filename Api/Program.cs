@@ -38,7 +38,7 @@ var stripeCfg = builder.Configuration.GetSection("Stripe");
 Stripe.StripeConfiguration.ApiKey = stripeCfg["SecretKey"];
 
 builder.Services.AddHttpContextAccessor();
-builder.Services.AddScoped<IFileStorageService, LocalFileStorageService>();
+
 var jwtSection = builder.Configuration.GetSection("Jwt");
 var keyBytes = Encoding.UTF8.GetBytes(jwtSection["Key"]!);
 
@@ -158,6 +158,6 @@ app.Use(async (ctx, next) =>
 
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseStaticFiles();
+
 app.MapControllers();
 app.Run();

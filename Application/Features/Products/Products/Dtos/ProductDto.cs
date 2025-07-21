@@ -10,6 +10,4 @@ public class ProductDto
     public int StockQty { get; set; }
     public int CarbonGrams { get; set; }
     public EcoLabel Label { get; private set; }
-    public List<string> Images { get; set; } = new();
-
 }

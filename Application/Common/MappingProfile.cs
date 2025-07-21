@@ -14,34 +14,22 @@ public class MappingProfile : Profile
     {
         CreateMap<Address, AddressDto>();
         CreateMap<CartItem, CartItemDto>()
-        .ForMember(d => d.ProductName, o => o.MapFrom(s => s.Product!.Name))
-        .ForMember(d => d.Price, o => o.MapFrom(s => s.UnitPrice.Amount))
-        .ForMember(d => d.LineTotal, o => o.MapFrom(s => (s.UnitPrice * s.Quantity).Amount))
-        .ForMember(d => d.ImageUrl, o => o.MapFrom(s =>
-            s.Product!.Images
-                     .OrderBy(i => i.SortOrder)
-                     .FirstOrDefault()!.Url));
+            .ForMember(d => d.Name,
+                       o => o.MapFrom(s => s.Product!.Name))
+            .ForMember(d => d.LineTotal,
+                       o => o.MapFrom(s => s.UnitPrice.Amount * s.Quantity));
 
         CreateMap<Cart, CartDto>()
             .ForMember(d => d.SubTotal,
                        o => o.MapFrom(s => s.SubTotal.Amount));
 
-        //CreateMap<Product, ProductDto>()
-        //    .ForMember(d => d.Price,
-        //               o => o.MapFrom(s => s.Price.Amount))
-        //    .ForMember(d => d.CarbonGrams,
-        //                o => o.MapFrom(s => s.CarbonGrams))
-        //                    .ForMember(d => d.Label,
-        //                o => o.MapFrom(s => s.Label));
-
         CreateMap<Product, ProductDto>()
-            .ForMember(d => d.Price, o => o.MapFrom(s => s.Price.Amount))
-            .ForMember(d => d.CarbonGrams, o => o.MapFrom(s => s.CarbonGrams))
-            .ForMember(d => d.Label, o => o.MapFrom(s => s.Label))
-            .ForMember(d => d.Images,
-               o => o.MapFrom(s => s.Images
-                                     .OrderBy(i => i.SortOrder)
-                                     .Select(i => i.Url)));
+            .ForMember(d => d.Price,
+                       o => o.MapFrom(s => s.Price.Amount))
+            .ForMember(d => d.CarbonGrams,
+                        o => o.MapFrom(s => s.CarbonGrams))
+                            .ForMember(d => d.Label,
+                        o => o.MapFrom(s => s.Label));
 
         CreateMap<OrderItem, OrderItemDto>()
             .ForMember(d => d.Name,
@@ -77,8 +65,5 @@ public class MappingProfile : Profile
                        o => o.MapFrom(s => s.CreatedUtc))
             .ForMember(d => d.Status,
                        o => o.MapFrom(s => s.Status.ToString()));
-
-        
-
     }
 }

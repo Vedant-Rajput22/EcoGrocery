@@ -12,7 +12,7 @@ public class EcoDbContext
       IAppDbContext
 {
     public EcoDbContext(DbContextOptions<EcoDbContext> opts) : base(opts) { }
-    public DbSet<ProductImage> ProductImages => Set<ProductImage>();
+
     public DbSet<Product> Products => Set<Product>();
     public DbSet<Cart> Carts => Set<Cart>();
     public DbSet<CartItem> CartItems => Set<CartItem>();

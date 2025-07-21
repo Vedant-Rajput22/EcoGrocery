@@ -24,31 +24,5 @@ namespace Api.Controllers
             var id = await _sender.Send(cmd);
             return CreatedAtAction(nameof(Get), new { id }, null);
         }
-        [HttpPost("{id:guid}/images")]
-        [Consumes("multipart/form-data")]
-        public async Task<IActionResult> UploadImages(
-        Guid id,
-        [FromForm] IFormFileCollection files,
-        [FromServices] ISender sender)               // ISender is already injected
-        {
-            if (files.Count == 0) return BadRequest("No files supplied.");
-
-            var list = new List<FileUploadVm>();         // ← same namespace as the command
-            foreach (var f in files)
-            {
-                if (!f.ContentType.StartsWith("image/"))
-                    return BadRequest($"Not an image: {f.FileName}");
-
-                await using var ms = new MemoryStream();
-                await f.CopyToAsync(ms);
-                list.Add(new FileUploadVm(ms.ToArray(), f.FileName, f.ContentType));
-            }
-
-            await sender.Send(new UploadProductImagesCommand(id, list.AsReadOnly())); // IReadOnlyList
-            return Ok();
-        }
-
-
     }
-
 }
